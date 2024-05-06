@@ -41,7 +41,7 @@ orangeColor = 0
 redLaps = 0
 blueLaps = 0
 greenLaps = 0
-yellowLaps = 0
+
 PLACE = 0
 
 def when_started1():
@@ -92,7 +92,7 @@ def onevent_bumper_a_released_1():
     redLaps = 0
     blueLaps = 0
     greenLaps = 0
-    yellowLaps = 0
+  
     while True:
     # Uses the optical sensor to detect the color of the runner.
         while not optical_11.is_near_object():
